@@ -1,8 +1,8 @@
 from os import system
 from random import randint
 
-THRESHOLD = 3
-MAX_COMMITS = 3
+THRESHOLD = 0
+MAX_COMMITS = 800
 
 def commit():
   system("echo $(date) >> output.txt")
